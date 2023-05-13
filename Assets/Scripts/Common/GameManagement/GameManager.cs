@@ -12,10 +12,13 @@ public class GameManager : MonoBehaviour
     // Connections
     public GameObject[] levels;
     public UIManager ui;
+    public GameObject player;
 
     // State variables
     int currentLevel;
     int score;
+
+    bool isDead;
 
     private void Awake()
     {
@@ -47,6 +50,8 @@ public class GameManager : MonoBehaviour
                 Debug.Log("Prefab index for level " + i + ":" + GetPrefabIndex(i, tutorialLevels, levels.Length));
             }
         }
+
+        
     }
 
     int GetPrefabIndex(int levelIndex, int nInitialLevels, int nLevels)
@@ -67,6 +72,8 @@ public class GameManager : MonoBehaviour
         ui.OnLevelStart += OnLevelStart;
         ui.OnNextLevel += OnNextLevel;
         ui.OnLevelRestart += OnLevelRestart;
+
+        
     }
 
     void OnLevelFailed()
@@ -85,6 +92,10 @@ public class GameManager : MonoBehaviour
     void OnLevelStart()
     {
         Debug.Log("LEVEL STARTED");
+        EventManager.planeCrash += OnPlaneCrash;
+        EventManager.gameStarted?.Invoke();
+
+        player.GetComponent<PlaneScript>().startControls = true;
     }
 
     void OnLevelRestart()
@@ -96,5 +107,18 @@ public class GameManager : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
         PlayerPrefs.SetInt("showStart", 0);
+    }
+
+    void OnPlaneCrash()
+    {
+        OnLevelFailed();
+        isDead = true;
+    }
+
+
+
+    private void OnDestroy()
+    {
+        EventManager.planeCrash -= OnPlaneCrash;
     }
 }

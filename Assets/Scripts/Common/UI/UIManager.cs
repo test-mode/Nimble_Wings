@@ -28,7 +28,7 @@ public class UIManager : MonoBehaviour
     public LevelBarDisplay levelBarDisplay;
     public TextMeshProUGUI inGameScoreText;
     [Header("Finish Screen")]
-    public ScoreTextManager scoreText;
+    public ScoreCalculator scoreCalculator;
 
     // State variables
     float timeScale;
@@ -116,7 +116,7 @@ public class UIManager : MonoBehaviour
 
     public void DisplayScore(int score, int oldScore=0)
     {
-        scoreText.DisplayScore(score, oldScore);
+        //scoreText.DisplayScore(score, oldScore);
     }
 
     public void SetLevel(int level)
@@ -157,6 +157,6 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        SetInGameScore(scoreCalculator.score);
     }
 }
