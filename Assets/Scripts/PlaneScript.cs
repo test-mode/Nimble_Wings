@@ -41,9 +41,13 @@ public class PlaneScript : MonoBehaviour
             if (startControls)
             {
                 PlaneControls();
-                PropellerRotation();
             }
-            
+            PropellerRotation();
+        }
+
+        if (transform.position.y < -10 || transform.position.y > 10)
+        {
+            EventManager.planeCrash?.Invoke();
         }
         
     }

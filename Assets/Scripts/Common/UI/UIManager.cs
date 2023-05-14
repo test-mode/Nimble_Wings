@@ -30,6 +30,8 @@ public class UIManager : MonoBehaviour
     [Header("Finish Screen")]
     public ScoreCalculator scoreCalculator;
 
+    bool gamePaused = false;
+
     // State variables
     float timeScale;
     void Start()
@@ -47,7 +49,7 @@ public class UIManager : MonoBehaviour
     public void StartLevelButton()
     {
         OnLevelStart?.Invoke();
-        
+        gamePaused = false;
     }
 
     public void NextLevelButton()
@@ -61,6 +63,8 @@ public class UIManager : MonoBehaviour
     {
         PlayerPrefs.SetInt("displayStart", 0);
         OnLevelRestart?.Invoke();
+
+        gamePaused = false;
     }
 
     public void OnPauseButtonPressed()
@@ -72,6 +76,8 @@ public class UIManager : MonoBehaviour
             Time.timeScale = 0;
         }
         OnGamePaused?.Invoke();
+
+        gamePaused = true;
     }
 
     public void OnResumeButtonPressed()
@@ -82,6 +88,7 @@ public class UIManager : MonoBehaviour
             Time.timeScale = timeScale;
         }
         OnGameResumed?.Invoke();
+        gamePaused = false;
     }
 
     public void OnInGameRestartPressed()
@@ -93,6 +100,7 @@ public class UIManager : MonoBehaviour
         }
 
         OnInGameRestart?.Invoke();
+        gamePaused = false;
     }
 
     #endregion
@@ -157,6 +165,10 @@ public class UIManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        SetInGameScore(scoreCalculator.score);
+        if (!gamePaused)
+        {
+            SetInGameScore(scoreCalculator.score);
+        }
+        
     }
 }

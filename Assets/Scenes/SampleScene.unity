@@ -130,6 +130,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1212232008627174128, guid: aea57d6d1233fc14c80af937a2ca69f8, type: 3}
+      propertyPath: scoreCalculator
+      value: 
+      objectReference: {fileID: 886831635}
     - target: {fileID: 2411049994962813266, guid: aea57d6d1233fc14c80af937a2ca69f8, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -218,10 +222,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: MainGameUI
       objectReference: {fileID: 0}
-    - target: {fileID: 9166514351476967214, guid: aea57d6d1233fc14c80af937a2ca69f8, type: 3}
-      propertyPath: m_AnchoredPosition.y
-      value: -0.5
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: aea57d6d1233fc14c80af937a2ca69f8, type: 3}
 --- !u!1 &173824831
@@ -302,6 +302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cloudPrefab: {fileID: 7016258427095864785, guid: 0be534d62b4032c439fdee9fe4a74f93, type: 3}
+  spawnRate: 0.8
 --- !u!4 &348375575
 Transform:
   m_ObjectHideFlags: 0
@@ -420,6 +421,50 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fcf9773ffb9552941b1f6516bcd5d72d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &886831634
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 886831636}
+  - component: {fileID: 886831635}
+  m_Layer: 0
+  m_Name: ScoreCalculator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &886831635
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886831634}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c02f3c5db3c9c8d4d98f8d2e0205eabe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  score: 0
+--- !u!4 &886831636
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 886831634}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.6138067, y: -0.954031, z: 3.357045}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &963194225
 GameObject:
   m_ObjectHideFlags: 0

@@ -503,7 +503,8 @@ MonoBehaviour:
   propeller: {fileID: 6983608718117645486}
   planeRB: {fileID: 2635032338282323622}
   speed: 3
-  propellerSpeed: 0
+  propellerSpeed: 20
+  startControls: 0
 --- !u!65 &1524758934
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -1,0 +1,1309 @@
+ScriptsOnlyBuild:
+  usedScripts:
+    Assembly-CSharp.dll:
+    - CloudScript
+    - CloudSpawnerScript
+    - DG.Tweening.DOTweenAnimation
+    - GameManager
+    - LevelBarDisplay
+    - PlaneScript
+    - ScoreCalculator
+    - UIManager
+    DOTween.dll:
+    - DG.Tweening.Core.DOTweenSettings
+    TheraBytes.BetterUi.Runtime.dll:
+    - TheraBytes.BetterUi.BetterButton
+    - TheraBytes.BetterUi.BetterImage
+    - TheraBytes.BetterUi.BetterSlider
+    - TheraBytes.BetterUi.Materials
+    - TheraBytes.BetterUi.ResolutionMonitor
+    Unity.Rider.Editor.dll:
+    - Packages.Rider.Editor.UnitTesting.CallbackData
+    Unity.TextMeshPro.dll:
+    - TMPro.TMP_FontAsset
+    - TMPro.TMP_Settings
+    - TMPro.TMP_SpriteAsset
+    - TMPro.TMP_StyleSheet
+    - TMPro.TextMeshProUGUI
+    UnityEditor.TestRunner.dll:
+    - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
+    - UnityEditor.TestTools.TestRunner.TestListCacheData
+    - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
+    UnityEngine.UI.dll:
+    - UnityEngine.EventSystems.EventSystem
+    - UnityEngine.EventSystems.StandaloneInputModule
+    - UnityEngine.UI.Button
+    - UnityEngine.UI.CanvasScaler
+    - UnityEngine.UI.GraphicRaycaster
+    - UnityEngine.UI.Image
+    - UnityEngine.UI.Outline
+    - UnityEngine.UI.Shadow
+  sceneClasses:
+    Assets/Scenes/SampleScene.unity:
+    - Class: 1
+      Script: {instanceID: 0}
+    - Class: 4
+      Script: {instanceID: 0}
+    - Class: 20
+      Script: {instanceID: 0}
+    - Class: 21
+      Script: {instanceID: 0}
+    - Class: 23
+      Script: {instanceID: 0}
+    - Class: 28
+      Script: {instanceID: 0}
+    - Class: 33
+      Script: {instanceID: 0}
+    - Class: 43
+      Script: {instanceID: 0}
+    - Class: 48
+      Script: {instanceID: 0}
+    - Class: 49
+      Script: {instanceID: 0}
+    - Class: 54
+      Script: {instanceID: 0}
+    - Class: 64
+      Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 81
+      Script: {instanceID: 0}
+    - Class: 89
+      Script: {instanceID: 0}
+    - Class: 104
+      Script: {instanceID: 0}
+    - Class: 108
+      Script: {instanceID: 0}
+    - Class: 114
+      Script: {instanceID: 1668}
+    - Class: 114
+      Script: {instanceID: 1670}
+    - Class: 114
+      Script: {instanceID: 1854}
+    - Class: 114
+      Script: {instanceID: 1954}
+    - Class: 114
+      Script: {instanceID: 2010}
+    - Class: 114
+      Script: {instanceID: 2316}
+    - Class: 114
+      Script: {instanceID: 2528}
+    - Class: 114
+      Script: {instanceID: 2718}
+    - Class: 114
+      Script: {instanceID: 2760}
+    - Class: 114
+      Script: {instanceID: 2836}
+    - Class: 114
+      Script: {instanceID: 2884}
+    - Class: 114
+      Script: {instanceID: 3198}
+    - Class: 114
+      Script: {instanceID: 3302}
+    - Class: 114
+      Script: {instanceID: 3402}
+    - Class: 114
+      Script: {instanceID: 3450}
+    - Class: 114
+      Script: {instanceID: 3504}
+    - Class: 114
+      Script: {instanceID: 3600}
+    - Class: 114
+      Script: {instanceID: 3666}
+    - Class: 114
+      Script: {instanceID: 3676}
+    - Class: 114
+      Script: {instanceID: 3796}
+    - Class: 114
+      Script: {instanceID: 4470}
+    - Class: 114
+      Script: {instanceID: 4540}
+    - Class: 114
+      Script: {instanceID: 4582}
+    - Class: 114
+      Script: {instanceID: 4628}
+    - Class: 114
+      Script: {instanceID: 4886}
+    - Class: 114
+      Script: {instanceID: 5280}
+    - Class: 114
+      Script: {instanceID: 43208}
+    - Class: 115
+      Script: {instanceID: 0}
+    - Class: 128
+      Script: {instanceID: 0}
+    - Class: 157
+      Script: {instanceID: 0}
+    - Class: 196
+      Script: {instanceID: 0}
+    - Class: 213
+      Script: {instanceID: 0}
+    - Class: 222
+      Script: {instanceID: 0}
+    - Class: 223
+      Script: {instanceID: 0}
+    - Class: 224
+      Script: {instanceID: 0}
+  scriptHashData:
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Image
+  - hash:
+      serializedVersion: 2
+      Hash: ae83e830e7a90c0aff918c4c2e520825
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GraphicRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 5ab533713adae59372fb3e10a585c186
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 77aaaaa51f7a8d8ff333a879741e47d2
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 9e3bdfbc2235d01ef36c198ad8bc4f87
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dreamteck.Splines
+    className: SplineUser
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalAsset
+  - hash:
+      serializedVersion: 2
+      Hash: bcaee4c2a83047257b5f47d6ed264b75
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Toggle
+  - hash:
+      serializedVersion: 2
+      Hash: 0dbc3be398b4869a5c8d0d8481ee402c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: LayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 299bee1e907df14b4b28d5e7d024511a
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CloudScript
+  - hash:
+      serializedVersion: 2
+      Hash: 1dbd2fa1959126791e0a40fe507d6cfb
+    assemblyName: ToonyColorsPro2.Demo.dll
+    namespaceName: ToonyColorsPro.Demo
+    className: TCP2_Demo_Camera
+  - hash:
+      serializedVersion: 2
+      Hash: 7387b4bcb1f060da993adc7e3f926249
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dreamteck.Splines
+    className: SplineMorph
+  - hash:
+      serializedVersion: 2
+      Hash: 6bc76e17f0d5e93f3eea7f5a2fe227f3
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Selectable
+  - hash:
+      serializedVersion: 2
+      Hash: 21a9c6dbf300fc1f6dc15ca7e2c39a37
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Slider
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: HorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 07b208bd7bd65e80ae8354a6b7b5b6b7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SplineMoveForward
+  - hash:
+      serializedVersion: 2
+      Hash: eac98410bebc29a50532c2ff1268bd2d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SetAsAnchorTarget
+  - hash:
+      serializedVersion: 2
+      Hash: 56c554880940c9b62c86f08c2fbabee2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BasicForwardStack
+  - hash:
+      serializedVersion: 2
+      Hash: 633ca76bbb64915521480156ff4c8d41
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dreamteck.Splines
+    className: LengthCalculator
+  - hash:
+      serializedVersion: 2
+      Hash: c12359a41ca5a2338a25bbe253821d72
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerMovement
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Shadow
+  - hash:
+      serializedVersion: 2
+      Hash: 4fb69acf5d4e4052e2e7d0a92c5d1ca8
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dreamteck.Splines
+    className: SplineTracer
+  - hash:
+      serializedVersion: 2
+      Hash: 300fd99066f8c288e85f5e81ce65fe34
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_FontAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 96462c4888b005fa0b520d6d095f0a70
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UITestManager
+  - hash:
+      serializedVersion: 2
+      Hash: 53996b2b755b8be94ce5b24ffb8eb849
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PGTestManager
+  - hash:
+      serializedVersion: 2
+      Hash: a01da6275fab5da6fe6268b00bb68b89
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: BetterHorizontalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 25b51eedb5bd71042065e892be8950b0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SpinWheel
+  - hash:
+      serializedVersion: 2
+      Hash: 787b7f6dec616f7986358e5b9bdacbfe
+    assemblyName: ToonyColorsPro2.Demo.dll
+    namespaceName: ToonyColorsPro.Demo
+    className: TCP2_Demo_Interactive_Environment
+  - hash:
+      serializedVersion: 2
+      Hash: 384a786578faf5cf9aa489d3e2a096c7
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: BetterTextMeshProInputField
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: GroupTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 97ca64c7518fc101011320d693ae1e72
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CloneCollision
+  - hash:
+      serializedVersion: 2
+      Hash: b10f0f008d787b95a5928eed8ceaa36e
+    assemblyName: ToonyColorsPro2.Demo.dll
+    namespaceName: Kino
+    className: Bloom
+  - hash:
+      serializedVersion: 2
+      Hash: 800c50acba124432abb4cf0d47202e06
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_StyleSheet
+  - hash:
+      serializedVersion: 2
+      Hash: 7344fbb3e347af77c301d43615e2c199
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dreamteck.Splines
+    className: Node
+  - hash:
+      serializedVersion: 2
+      Hash: 699619b86d9359741a4f58540298c80b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Text
+  - hash:
+      serializedVersion: 2
+      Hash: 326ff6178197c0f4b01d253dce7cc73c
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: BetterGridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: f1d735cc1a21c3704ab52568f4fbfcf8
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner
+    className: PlaymodeTestsController
+  - hash:
+      serializedVersion: 2
+      Hash: b6542bdca0edcd169421a6f5be1ebec1
+    assemblyName: ToonyColorsPro2.Demo.dll
+    namespaceName: ToonyColorsPro.Demo
+    className: TCP2_Demo_PBS
+  - hash:
+      serializedVersion: 2
+      Hash: 82c30317f3fed44614d65bc8b383b9ec
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: AnchorOverride
+  - hash:
+      serializedVersion: 2
+      Hash: c1d728126ff1918728036c59106d32b2
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 3396630cb84cb951a2a22740b563cb3f
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: GameObjectActivator
+  - hash:
+      serializedVersion: 2
+      Hash: b60b8aabeb6f51f9849b883e275225bb
+    assemblyName: ToonyColorsPro2.Demo.dll
+    namespaceName: ToonyColorsPro
+    className: TCP2_Demo_Interactive_Content
+  - hash:
+      serializedVersion: 2
+      Hash: fe69a11e90d5c953759d4dd3ced816c6
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: ResolutionMonitor
+  - hash:
+      serializedVersion: 2
+      Hash: b5fc3843e35dd6d09a719cb0d10ff4a5
+    assemblyName: DemiLib.dll
+    namespaceName: DG.DemiLib.External
+    className: DeHierarchyComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 75741fff6a469579f4c20f22ddcc011b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dreamteck.Splines
+    className: SplineMesh
+  - hash:
+      serializedVersion: 2
+      Hash: af884d6f5a89d1781a5459cd0dc1049d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dreamteck.Splines
+    className: PolygonColliderGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: EnemyPlacer
+  - hash:
+      serializedVersion: 2
+      Hash: 7c04ff7abdae8f8e88fda7b0ca2e11ba
+    assemblyName: ToonyColorsPro.Runtime.dll
+    namespaceName: ToonyColorsPro.Runtime
+    className: TCP2_PlanarReflection
+  - hash:
+      serializedVersion: 2
+      Hash: d87692285317430d6fc4c957871747e7
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: BetterLayoutElement
+  - hash:
+      serializedVersion: 2
+      Hash: 1663537951c60ababc6bc02da8458087
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dreamteck.Splines
+    className: MeshGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: a1aa98c78061c6f03a8c124cda576e67
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: CanvasScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 7c31512d7800cf18a86f7277eef7801e
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: BetterImage
+  - hash:
+      serializedVersion: 2
+      Hash: cf9f5cf2c3145a37ac07f00e50e460f9
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: AspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: cc4274b586df3c02688bac01b88bd16c
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventSystem
+  - hash:
+      serializedVersion: 2
+      Hash: fe64a45214940b510a0ec79c96d43498
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: f336e086360abe49a3323e5f1583c35a
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioTrack
+  - hash:
+      serializedVersion: 2
+      Hash: a74405a4829a834d107a0c6e072719ed
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: TimelineAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CollisionEventSender
+  - hash:
+      serializedVersion: 2
+      Hash: 760787567e1b60d64a3e421ab83ee14a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: a50067411a8bbb36caddd9863206f686
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: OverrideScreenProperties
+  - hash:
+      serializedVersion: 2
+      Hash: ea024466d59fc7aaddadb6d8c32b994b
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: InteractionArea
+  - hash:
+      serializedVersion: 2
+      Hash: f8b77ce9bb92b8cde7deea440830f474
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SimpleUserTapInput
+  - hash:
+      serializedVersion: 2
+      Hash: 5da3824b252ffc5aa56dba291f0b5a45
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dreamteck.Splines
+    className: ObjectBender
+  - hash:
+      serializedVersion: 2
+      Hash: a01da6275fab5da6fe6268b00bb68b89
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: BetterVerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: a1f5d585404d97fa833aa5e859ed2b1b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoveForward
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestRunner.Utils
+    className: TestRunCallbackListener
+  - hash:
+      serializedVersion: 2
+      Hash: 6b96ec5e08e9305e2790b55fcf877675
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dreamteck.Splines
+    className: TubeGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: f40fedccd4adbc76605bea6d67537e4b
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SelectionCaret
+  - hash:
+      serializedVersion: 2
+      Hash: a306e12d896ddcca949923c805691027
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: InputField
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: TestResultRendererCallback
+  - hash:
+      serializedVersion: 2
+      Hash: 812b799d5d2578e68e336c206b69edbb
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: BetterRawImage
+  - hash:
+      serializedVersion: 2
+      Hash: 2100a4c956f44c2e3fab93cbeacee743
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: BetterAxisAlignedLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: b6335cdd15aa9cfe936c393bdca92c2c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlaneScript
+  - hash:
+      serializedVersion: 2
+      Hash: 2a52ef9627aa88ef901384e9f9c9df60
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: BetterContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 8da38c3adb37234767dbf52d9e7bb21e
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: BetterLocator
+  - hash:
+      serializedVersion: 2
+      Hash: 748dd2a2a28da4e618912da5ac45684b
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: StandaloneInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: f7858108331b563fb41b80b729297acd
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Scrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 5dea360fb0b147724ac344e6f399c2f3
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMesh
+  - hash:
+      serializedVersion: 2
+      Hash: 662d3590efba0c2ab8e0b312972c6957
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FollowPlayerSplineBased
+  - hash:
+      serializedVersion: 2
+      Hash: d465590118539908a8668fe1a117ea89
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dreamteck.Splines
+    className: PathGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: MarkerTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 66dc72136059002a076a5ba0992341d6
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: BetterScrollbar
+  - hash:
+      serializedVersion: 2
+      Hash: 8e6ceabfd38a184413d69b7db56c89cc
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools
+    className: BeforeAfterTestCommandState
+  - hash:
+      serializedVersion: 2
+      Hash: 0fd6822f6177297bd0eb4d83cc7a9030
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ToggleGroup
+  - hash:
+      serializedVersion: 2
+      Hash: 69415240821be7986b27e72bf9609a30
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Button
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SplineRoadGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 47a7e8b2b54d46ffb13dbe79e58b6788
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Rotate
+  - hash:
+      serializedVersion: 2
+      Hash: ad414eeb94134c1b0331356405c13b1f
+    assemblyName: ToonyColorsPro2.Demo.dll
+    namespaceName: ToonyColorsPro.Demo
+    className: TCP2_Demo_GammaLinear
+  - hash:
+      serializedVersion: 2
+      Hash: 317f5ced8e3f0440a51bff3b329597b9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GameManager
+  - hash:
+      serializedVersion: 2
+      Hash: bd469d334ba73d600665cfa2946264f2
+    assemblyName: DOTweenPro.dll
+    namespaceName: DG.Tweening
+    className: DOTweenPath
+  - hash:
+      serializedVersion: 2
+      Hash: d452b4ce4b4cca771c54091cc2623c68
+    assemblyName: DOTweenPro.dll
+    namespaceName: DG.Tweening
+    className: DOTweenVisualManager
+  - hash:
+      serializedVersion: 2
+      Hash: 4fd8bf02e3089425d3502e26c44ba31a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextContainer
+  - hash:
+      serializedVersion: 2
+      Hash: a38443e068ac880d54013c1a7f3d5b35
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: BasicForwardStackOnSpline
+  - hash:
+      serializedVersion: 2
+      Hash: 863fe35003a27f3665b94d56d69b1b34
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CloudSpawnerScript
+  - hash:
+      serializedVersion: 2
+      Hash: 1074e8b2977d66ea6b76571e9e447680
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dreamteck.Splines
+    className: SplineComputer
+  - hash:
+      serializedVersion: 2
+      Hash: c12359a41ca5a2338a25bbe253821d72
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerMovementSplineBased
+  - hash:
+      serializedVersion: 2
+      Hash: c23f32f6fa9001d41837a9bcfe8667d6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: DG.Tweening
+    className: DOTweenAnimation
+  - hash:
+      serializedVersion: 2
+      Hash: 8aa3d6ccbcb54ee8db6c1229854adaaa
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ContentSizeFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 983f3194e7c2307db6258a536bf5ea09
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dreamteck.Splines
+    className: SplineRenderer
+  - hash:
+      serializedVersion: 2
+      Hash: f6b4756d4470fa625d367b30639b2c73
+    assemblyName: ToonyColorsPro2.Demo.dll
+    namespaceName: ToonyColorsPro.Demo
+    className: TCP2_Demo
+  - hash:
+      serializedVersion: 2
+      Hash: 8ddeee8666369d955d920438de86c223
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: BetterInputField
+  - hash:
+      serializedVersion: 2
+      Hash: caa533b001ae39b864ba8425019e2268
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Outline
+  - hash:
+      serializedVersion: 2
+      Hash: 2d5d3e1efc2d6c83d3c6c51d8af75709
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: Materials
+  - hash:
+      serializedVersion: 2
+      Hash: 5377ae241ce636f2577c17236b051476
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScoreTextManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FixMobileDepth
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: PlayableTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 544df74c48d6c7a0ff1e948e654771a4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerManager
+  - hash:
+      serializedVersion: 2
+      Hash: 752267470eca8e73628b88e844e53bd4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: GateManager
+  - hash:
+      serializedVersion: 2
+      Hash: 3164bc883ff663a5cdb32d1ef7e7c0c5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: VerticalLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: fde956efd03b1df6e6d233db90c26e01
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RandomSiblingOrder
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayerQuitHandler
+  - hash:
+      serializedVersion: 2
+      Hash: 704dcd31abc789439bc3f3cd10b58c2b
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenComponent
+  - hash:
+      serializedVersion: 2
+      Hash: 3043290b08d2ce331b80366f9694a5c5
+    assemblyName: DOTween.dll
+    namespaceName: DG.Tweening.Core
+    className: DOTweenSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: BaseInput
+  - hash:
+      serializedVersion: 2
+      Hash: 6ef9873f49c02d8eac61f0c333b43642
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StraightRoadGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 1b82c7778d2766b9e1f95ce5b4ec7d67
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dreamteck.Splines
+    className: SplineProjector
+  - hash:
+      serializedVersion: 2
+      Hash: ce6e94cde6a41b267ffba73d197bad66
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: BetterDropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: Physics2DRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: da4cc51a02ce84afe2cecd27cfe6997a
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TextMeshPro
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: PlayModeRunnerCallback
+  - hash:
+      serializedVersion: 2
+      Hash: bd3cf68c8964d3c66d1c43f4f98508c9
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AnimationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: PositionAsUV1
+  - hash:
+      serializedVersion: 2
+      Hash: a6e561615949734e9f12f9b61661f43e
+    assemblyName: ToonyColorsPro2.Demo.dll
+    namespaceName: 
+    className: TCP2_Demo_InvertedMaskImage
+  - hash:
+      serializedVersion: 2
+      Hash: 87ff43d2baf3385cba327d8f803a4ebb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: AudioPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: cf06929e60179c16cb5cf88f53bd887b
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: Road
+  - hash:
+      serializedVersion: 2
+      Hash: 43b878ccf02e0993322d457c6bd2d2f3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: AscendingTextEffect
+  - hash:
+      serializedVersion: 2
+      Hash: e307e578b3236f5c0d8749b946792401
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: SizeDeltaSizer
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: UnityEngine.TestRunner.dll
+    namespaceName: UnityEngine.TestTools.TestRunner.Callbacks
+    className: RemoteTestResultSender
+  - hash:
+      serializedVersion: 2
+      Hash: 134322c9293c1896357cce271b819ce4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: d8a422018ec06aded5071b7bf260f85c
+    assemblyName: ToonyColorsPro2.Demo.dll
+    namespaceName: 
+    className: TCP2_Demo_AutoRotate
+  - hash:
+      serializedVersion: 2
+      Hash: ea3d72d003dc72b6c56b461a90d1f058
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: TakeSnapShot
+  - hash:
+      serializedVersion: 2
+      Hash: aa272c751d475dce93b25b48de2f33c2
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: RagdollManager
+  - hash:
+      serializedVersion: 2
+      Hash: a81d4c2c1cf3ad164d277d927a193679
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Dropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 8e04c6dddd0f208fe9e4d741eaed24f6
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dreamteck.Splines
+    className: EdgeColliderGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: a5781dc71a671b1ad2b38de19f24b71f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationTrack
+  - hash:
+      serializedVersion: 2
+      Hash: b1484fe93a288b2f50028ef6d5f0e346
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CharacterAnimator
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalTrack
+  - hash:
+      serializedVersion: 2
+      Hash: cbc2b9d8a8efba8e2c74735532b98ce0
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dreamteck.Splines
+    className: ObjectController
+  - hash:
+      serializedVersion: 2
+      Hash: b78bf695ff5906f327437b19646603f4
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: BetterTextMeshProUGUI
+  - hash:
+      serializedVersion: 2
+      Hash: 0f46123eb60a6cce1399824f93fe8219
+    assemblyName: ToonyColorsPro2.Demo.dll
+    namespaceName: ToonyColorsPro.Demo
+    className: TCP2_Demo_View
+  - hash:
+      serializedVersion: 2
+      Hash: aba7b2852ef61d175dd9602e7723d5e5
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: Mask
+  - hash:
+      serializedVersion: 2
+      Hash: 9e3bdfbc2235d01ef36c198ad8bc4f87
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dreamteck.Splines
+    className: BlankUser
+  - hash:
+      serializedVersion: 2
+      Hash: adbdef39cfae9d26ec830f089a39c266
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dreamteck.Splines
+    className: WaveformGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 28b3a12fdeca52371c5851074f9e93d3
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: CircularProceduralGeneration
+  - hash:
+      serializedVersion: 2
+      Hash: 014a134076162898b9ac9088e243b9a8
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: BetterToggle
+  - hash:
+      serializedVersion: 2
+      Hash: c3d3430df9e3ea95e3e3d587961390fb
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlTrack
+  - hash:
+      serializedVersion: 2
+      Hash: cd7559cad43b78e67cf8b676007ed5e2
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: BetterAspectRatioFitter
+  - hash:
+      serializedVersion: 2
+      Hash: 6882bf729f1e78a239d17546f5b14829
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: BetterSelectable
+  - hash:
+      serializedVersion: 2
+      Hash: 823e541b1b83e763c2bd52e0d8cf8415
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dreamteck.Splines
+    className: SplineFollower
+  - hash:
+      serializedVersion: 2
+      Hash: 3165968ba45c74472d279ba04455fccb
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ColorGradient
+  - hash:
+      serializedVersion: 2
+      Hash: 908b3077da284d11de0450423ca1808e
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalReceiver
+  - hash:
+      serializedVersion: 2
+      Hash: 040dd48e3a027d5424519a5fa2009df4
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: ScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 6237ba4b9c6f2eada984d5d6aa10277f
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: BetterSlider
+  - hash:
+      serializedVersion: 2
+      Hash: 6445964b0fd633e7628b401dc58ae5f7
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FXTestManager
+  - hash:
+      serializedVersion: 2
+      Hash: 3ff8e86d6989d6ebd651188464bdd9a1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: StraightLevelPopulator
+  - hash:
+      serializedVersion: 2
+      Hash: 18c222bef9ae745ce69ddde9b74337ca
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: PhysicsRaycaster
+  - hash:
+      serializedVersion: 2
+      Hash: 0fb27be807aa299702f28ad0bcad1f46
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ControlPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 1701b48a13e9b205a64f7d3a9f045ba9
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: LevelBarDisplay
+  - hash:
+      serializedVersion: 2
+      Hash: 301439da0db6587dcbb560673f5dc397
+    assemblyName: ToonyColorsPro2.Demo.dll
+    namespaceName: ToonyColorsPro.Demo
+    className: TCP2_Demo_AnimateMaterial
+  - hash:
+      serializedVersion: 2
+      Hash: 12a825b52bd19f9c163c2c4b9548d867
+    assemblyName: ToonyColorsPro.Runtime.dll
+    namespaceName: ToonyColorsPro.Runtime
+    className: TCP2_GetPosOnWater
+  - hash:
+      serializedVersion: 2
+      Hash: ef5c43f921427d03730f6ea4c848f07d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: RectMask2D
+  - hash:
+      serializedVersion: 2
+      Hash: 3802de582badfde2132377ff99dd50ef
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PlayerPoissonTest
+  - hash:
+      serializedVersion: 2
+      Hash: 87ad3705a58f19c47136728d4a6e9c47
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_Settings
+  - hash:
+      serializedVersion: 2
+      Hash: c26539bd4edce1bc86bc84e08692ef34
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: SizeChangeTracker
+  - hash:
+      serializedVersion: 2
+      Hash: 7ffbb3f92ea27f70bb5deca6312414ef
+    assemblyName: ToonyColorsPro2.Demo.dll
+    namespaceName: ToonyColorsPro.Demo
+    className: TCP2_Demo_Cat
+  - hash:
+      serializedVersion: 2
+      Hash: 17d72e44ed9378b725b2821cec9e4e88
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: BetterButton
+  - hash:
+      serializedVersion: 2
+      Hash: ecd62cf92ab18cb8d75a82de9a68912c
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: BetterScrollRect
+  - hash:
+      serializedVersion: 2
+      Hash: 85b0ba778e8e0217380dfe3add6ec8c8
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: BetterText
+  - hash:
+      serializedVersion: 2
+      Hash: 481891db82d1f19d880e4c774146e600
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: TransformScaler
+  - hash:
+      serializedVersion: 2
+      Hash: 1ad21bc7b78e0157e7a420aecd998b14
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: IngameResolutionMonitor
+  - hash:
+      serializedVersion: 2
+      Hash: 6980e81ddc615a861309d2d659cc3760
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SubMeshUI
+  - hash:
+      serializedVersion: 2
+      Hash: 2122c42aac0c44e0cd7ed01910b598fb
+    assemblyName: ToonyColorsPro2.Demo.dll
+    namespaceName: ToonyColorsPro.Demo
+    className: TCP2_Demo_PBS_View
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ElephantAnalyticsManager
+  - hash:
+      serializedVersion: 2
+      Hash: 5601af99a34ee14673b89c0c2647cf26
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: LocationAnimations
+  - hash:
+      serializedVersion: 2
+      Hash: fd68d84f33fad85aac38f2739c0ee270
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_SpriteAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: ToonyColorsPro.Runtime.dll
+    namespaceName: ToonyColorsPro.Runtime
+    className: TCP2_ShaderUpdateUnityTime
+  - hash:
+      serializedVersion: 2
+      Hash: ce3b4d34ed691f09ae08cb4ae7da03a1
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dreamteck.Splines
+    className: SurfaceGenerator
+  - hash:
+      serializedVersion: 2
+      Hash: 61f1192dabdf756fa781ee36993cac5e
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: FollowPlayer
+  - hash:
+      serializedVersion: 2
+      Hash: e7a73f5f78ba6445195ec23b74a1ce2d
+    assemblyName: Unity.TextMeshPro.dll
+    namespaceName: TMPro
+    className: TMP_ScrollbarEventHandler
+  - hash:
+      serializedVersion: 2
+      Hash: b8f61d47d5357228f62df063a9c8643a
+    assemblyName: ToonyColorsPro2.Demo.dll
+    namespaceName: ToonyColorsPro.Demo
+    className: TCP2_Demo_Interactive
+  - hash:
+      serializedVersion: 2
+      Hash: 096e41579db339dc4f0ae018d860cb55
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: SplineLevelPopulator
+  - hash:
+      serializedVersion: 2
+      Hash: 75a9452f09760e241ae8d8a089e45e8d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dreamteck.Splines
+    className: ParticleController
+  - hash:
+      serializedVersion: 2
+      Hash: 6c1a820d379e3c652d5602b4582104f4
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: Dreamteck.Splines
+    className: SplinePositioner
+  - hash:
+      serializedVersion: 2
+      Hash: dc9e318326bf89001e1c59c6bb98abc2
+    assemblyName: ToonyColorsPro.Runtime.dll
+    namespaceName: ToonyColorsPro.Runtime
+    className: TCP2_CameraDepth
+  - hash:
+      serializedVersion: 2
+      Hash: 653f8c3aa3d1a2529973dd2bd7550522
+    assemblyName: TheraBytes.BetterUi.Runtime.dll
+    namespaceName: TheraBytes.BetterUi
+    className: BetterTextMeshProDropdown
+  - hash:
+      serializedVersion: 2
+      Hash: 32dd186a31f1c72166524da23afc3979
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MoveTowardsOrigin
+  - hash:
+      serializedVersion: 2
+      Hash: 8220b46879dc5e37db1b940c938f5744
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: SignalEmitter
+  - hash:
+      serializedVersion: 2
+      Hash: f43b2de1b7d14c5e5a714471a14c45b5
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: UIManager
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.Timeline.dll
+    namespaceName: UnityEngine.Timeline
+    className: ActivationPlayableAsset
+  - hash:
+      serializedVersion: 2
+      Hash: 7ab0e790220bdca831fdd886b339039d
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.UI
+    className: GridLayoutGroup
+  - hash:
+      serializedVersion: 2
+      Hash: abf1930d8126d0b2e00e9449129a0190
+    assemblyName: UnityEngine.UI.dll
+    namespaceName: UnityEngine.EventSystems
+    className: TouchInputModule
+  - hash:
+      serializedVersion: 2
+      Hash: 6a2a799fa81aeaef9279972b6d88f91d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PoissonDiscTest
+  - hash:
+      serializedVersion: 2
+      Hash: bfdf060b2603148594c3c06838d1c1db
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: ScoreCalculator
+  platform: 13
+  scenePathNames:
+  - Assets/Scenes/SampleScene.unity
+  playerPath: C:/Users/imuha/OneDrive/Desktop/Builds/Nimble Wings.apk

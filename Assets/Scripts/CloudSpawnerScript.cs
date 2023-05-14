@@ -10,6 +10,7 @@ public class CloudSpawnerScript : MonoBehaviour
 
     // State Variables
     public GameObject cloudPrefab;
+    public float spawnRate;
     Vector2 worldBoundary;
 
     void Start()
@@ -17,7 +18,7 @@ public class CloudSpawnerScript : MonoBehaviour
         //InitConnections();
         InitState();
 
-        InvokeRepeating(nameof(SpawnClouds), 1f, 1f);
+        InvokeRepeating(nameof(SpawnClouds), 1f, spawnRate);
     }
 
     void InitConnections()
