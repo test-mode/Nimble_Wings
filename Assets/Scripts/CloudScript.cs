@@ -9,7 +9,9 @@ public class CloudScript : MonoBehaviour
 
     // State Variables
     public float cloudSpeed;
-    
+
+    float time;
+    float timer;
 
 
     void Start()
@@ -24,12 +26,18 @@ public class CloudScript : MonoBehaviour
     }
     void InitState()
     {
-        
+        time = 10f;
     }
 
     void Update()
     {
         CloudMovement();
+
+        timer += Time.deltaTime;
+        if (timer > time)
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void CloudMovement()
